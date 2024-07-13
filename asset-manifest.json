@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/akshaydivakaran01/To-Do-Manager/static/css/main.8c27d9dd.css",
+    "main.js": "/akshaydivakaran01/To-Do-Manager/static/js/main.a7c5ef95.js",
+    "index.html": "/akshaydivakaran01/To-Do-Manager/index.html",
+    "main.8c27d9dd.css.map": "/akshaydivakaran01/To-Do-Manager/static/css/main.8c27d9dd.css.map",
+    "main.a7c5ef95.js.map": "/akshaydivakaran01/To-Do-Manager/static/js/main.a7c5ef95.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c27d9dd.css",
+    "static/js/main.a7c5ef95.js"
+  ]
+}
