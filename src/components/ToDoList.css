@@ -1,0 +1,588 @@
+.container-fluid {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #1f1e1e;
+    color: white;
+  }
+  
+  .header {
+    padding: 40px;
+    text-align: center;
+    font-family: "Arvo";
+  }
+  
+  .header p {
+    font-family: "Playwrite NG Modern";
+  }
+  
+  .todo-input-wrapper {
+    background-color: #2f2e2e;
+    padding: 3% 2% 0%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80vw;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0px 5px 7px rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  
+  .todo-input {
+    display:flex;
+  }
+  
+  .todo-input-item {
+    display: flex;
+    align-items: first baseline;
+    margin-right: 25px;
+    margin-bottom: 20px;
+  }
+  
+  .todo-input-item label {
+    font-family: "Quicksand";
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  #task-due, #task-priority, input::placeholder, textarea::placeholder {
+    color: #626464;
+  }
+  
+  .todo-input-item input, textarea, select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+  }
+  
+  .todo-input-item input:focus, textarea:focus, select:focus {
+    outline: 2px solid #05dba9;
+  }
+  
+  .primaryBtn {
+    background-color: #05dba9;
+    color: white;
+    border:none;
+    border-radius: 6px;
+    margin: 15px 0 15px auto;
+    padding: 8px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 0px 5px 7px rgb(24, 24, 24);
+  }
+  
+  .primaryBtn:hover {
+    background-color: #05ba8f;
+  }
+  
+  .btn-area {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .secondaryBtn {
+    background-color: rgb(71, 71, 71);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 25px;
+    padding: 10px;
+    width: fit-content;
+    cursor: pointer;
+  }
+  
+  .active {
+    background-color: #05dba9;
+  }
+  
+  .todo-display-wrapper {
+    padding: 50px;
+  }
+  
+  .todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card-wrapper {
+    width: 350px; 
+    height: 300px;
+    border-radius: 10px;
+    background-color: #2f2e2e;
+    box-shadow: 0px 5px 7px rgb(0, 0, 0);
+    margin: 25px 20px;
+  }
+  
+  .card-top{
+    width: 100%;
+    height: 2%;
+    background-color: #05dba9;
+  }
+  
+  .task-holder{
+    width: 100%;
+    height: 98%;
+    padding: 10px 20px;
+    display : flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .card-header {
+    margin: 10px 0;
+    max-width: max-content;
+    min-width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial";
+    font-weight: 500; 
+    overflow: auto;
+  }
+  
+  .card-header::-webkit-scrollbar{
+    display: none;
+  }
+  .desc {
+    max-width: 100%;
+    min-height: fit-content;
+    max-height: 80px;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    overflow: auto;
+    overflow-wrap: break-word;
+    font-weight: bold;
+    color: #d3dcdc;
+  }
+  
+  .due {
+    font-style: oblique;
+    font-size: 15px;
+    padding: 0px 10px;
+    color: #d3dcdc;
+  }
+  
+  .overdue-tag {
+    margin-left: 10px;
+    font-style: oblique;
+    color: #ff0000; 
+    font-weight: bold;
+  }
+  
+  .due-container {
+    display: flex;
+  }
+  
+  .status {
+    font-style: oblique;
+    font-size: 15px;
+    padding: 0px 10px;
+    color: #15af36;
+  }
+  
+  .priority-tag {
+    margin: 0px 10px;
+    width: 120px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 13px;
+  }
+  
+  .icons {
+    font-size: 20px;
+    position: absolute; 
+    right: 20px;
+    bottom: 20px;
+  }
+  
+  .icons i {
+    font-size: 25px;
+    margin-right:  15px;
+    color:#ffffff;
+  }
+  
+  .delete-icon:hover {
+    color: rgb(233, 78, 78);
+  }
+  
+  .check-icon:hover{
+    color: #05dba9;
+  }
+  
+  .edit-icon:hover {
+    color: #177bed;
+  }
+  
+  .modal{
+    backdrop-filter: blur(10px);
+  }
+  
+  .modal-content {
+    background-color: #2f2e2e !important;
+    box-shadow: 0px 5px 7px rgb(0, 0, 0);
+  }
+  
+  .modal-footer .primaryBtn {
+    width: 74px;
+    height: 37px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Toastify__toast {
+    background-color: #2f2e2e !important;
+  }
+  
+  @media (min-width:801px) and (max-width: 1024px) {
+    .todo-input-wrapper {
+      width: 60%;
+    }
+  
+    .todo-input{
+      flex-direction: column;
+    }
+
+    .todo-input-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .primaryBtn {
+        padding: 8px;
+        width: 90px;
+        font-size: 14px;
+    }
+
+    .todo-input-item input, textarea, select {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 250px;
+    }
+
+    .Toastify__toast {
+        font-size: 13px;
+        width: fit-content;
+    }
+
+    .Toastify__toast-container {
+        top: 50px !important;
+        right: -35px !important;
+    }
+  }
+
+  @media (min-width:601px) and (max-width: 800px) {
+    .header{
+        padding: 40px;
+    }
+    .header p{
+        font-size: 1.2rem;
+        margin-top: 25px !important;
+    }
+    .todo-input-wrapper {
+      width: 60%;
+      padding-top: 20px;
+    }
+  
+    .todo-input{
+      flex-direction: column;
+    }
+
+    .todo-input-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .todo-input-item input, textarea, select {
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        width: 230px;
+        font-size: 10px;
+    }
+
+    .todo-input-item label {
+        font-size: 12px;
+    }
+
+    .primaryBtn {
+        padding: 6px;
+        width: 80px;
+        font-size: 12px;
+    }
+
+    .secondaryBtn {
+        margin-top: 15px;
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+
+    .card-wrapper {
+        width: 300px;
+        height: 250px;
+        margin: 25px 20px;
+    }
+
+    .card-header {
+        margin: 10px 0;
+        max-width: max-content;
+        min-width: 80px;
+        height: 25px;
+        font-size: 13px;
+    }
+
+    .desc {
+        max-width: 100%;
+        max-height: 60px;
+        padding: 0px 10px;
+        margin-bottom: 15px;
+        font-size: 14px;
+        margin-top: 10px !important;
+    }
+
+    .due {
+        font-size: 12px;
+    }
+
+    .overdue-tag {
+        font-size: 13px;
+    }
+
+    .priority-tag {
+        width: 100px;
+        height: 22px;
+        font-size: 11px;
+    }
+
+    .icons i{
+        font-size: 18px;
+    }
+
+    .Toastify__toast {
+        font-size: 10px;
+        width: fit-content;
+    }
+
+    .Toastify__toast-container {
+        top: 10px !important;
+        right: -90px !important;
+    }
+  }
+
+  @media (min-width:401px) and (max-width: 600px) {
+
+    .header{
+        padding: 20px;
+    }
+
+    .header p{
+        font-size: 0.88rem;
+        margin-top: 20px !important;
+    }
+    .todo-input-wrapper {
+      width: 75%;
+      padding-top: 20px;
+    }
+  
+    .todo-input{
+      flex-direction: column;
+    }
+
+    .todo-input-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .todo-input-item input, textarea, select {
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        width: 230px;
+        font-size: 10px;
+    }
+
+    .todo-input-item label {
+        font-size: 12px;
+    }
+
+    .primaryBtn {
+        padding: 6px;
+        width: 70px;
+        font-size: 10px;
+    }
+    .todo-display-wrapper {
+        padding-top: 30px;
+    }
+
+    .secondaryBtn {
+        margin-top: 15px;
+        padding: 6px 10px;
+        font-size: 0.6rem;
+    }
+
+    .card-wrapper {
+        width: 250px;
+        height: 200px;
+        margin: 25px 20px;
+    }
+
+    .card-header {
+        margin: 6px 0;
+        max-width: max-content;
+        min-width: 70px;
+        height: 23px;
+        font-size: 11px;
+    }
+
+    .desc {
+        max-width: 100%;
+        max-height: 40px;
+        padding: 0px 10px;
+        margin-bottom: 10px;
+        font-size: 13px;
+        margin-top: 5px !important;
+    }
+
+    .due {
+        font-size: 10px;
+    }
+
+    .overdue-tag {
+        font-size: 11px;
+    }
+
+    .priority-tag {
+        width: 80px;
+        height: 20px;
+        font-size: 8px;
+    }
+
+    .icons i{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .Toastify__toast {
+        font-size: 10px;
+        width: fit-content;
+    }
+
+    .modal-footer .primaryBtn{
+        font-size: 13px;
+    }
+  }
+
+  @media (max-width: 400px) {
+
+    .header{
+        padding: 20px;
+    }
+
+    .header p{
+        font-size: 0.73rem;
+        margin-top: 20px !important;
+    }
+    .todo-input-wrapper {
+      width: 90%;
+      padding-top: 20px;
+    }
+  
+    .todo-input{
+      flex-direction: column;
+    }
+
+    .todo-input-item {
+        display: flex;
+        justify-content: center;
+    }
+
+    .todo-input-item input, textarea, select {
+        padding: 5px;
+        border: none;
+        border-radius: 5px;
+        width: 230px;
+        font-size: 9px;
+    }
+
+    .todo-input-item label {
+        font-size: 10px;
+    }
+
+    .primaryBtn {
+        padding: 6px;
+        width: 65px;
+        font-size: 9px;
+    }
+
+    .secondaryBtn {
+        margin-top: 10px;
+        padding: 6px 10px;
+        font-size: 0.6rem;
+    }
+
+    .todo-display-wrapper {
+        padding: 10px;
+    }
+
+    .card-wrapper {
+        width: 250px;
+        height: 200px;
+        margin: 25px 20px;
+    }
+
+    .card-header {
+        margin: 6px 0;
+        max-width: max-content;
+        min-width: 70px;
+        height: 23px;
+        font-size: 11px;
+    }
+
+    .desc {
+        max-width: 100%;
+        max-height: 40px;
+        padding: 0px 10px;
+        margin-bottom: 10px;
+        font-size: 13px;
+        margin-top: 5px !important;
+    }
+
+    .due {
+        font-size: 10px;
+    }
+
+    .overdue-tag {
+        font-size: 11px;
+    }
+
+    .priority-tag {
+        width: 80px;
+        height: 20px;
+        font-size: 8px;
+    }
+
+    .icons i{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    .Toastify__toast {
+        font-size: 10px;
+    }
+
+    .modal-footer .primaryBtn{
+        font-size: 12px;
+    }
+  }
+  
+  
