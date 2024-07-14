@@ -377,6 +377,10 @@
         top: 10px !important;
         right: -90px !important;
     }
+
+    .status {
+      font-size: 10px;
+    }
   }
 
   @media (min-width:401px) and (max-width: 600px) {
@@ -480,6 +484,10 @@
     .modal-footer .primaryBtn{
         font-size: 13px;
     }
+
+    .status {
+      font-size: 10px;
+    }
   }
 
   @media (max-width: 400px) {
@@ -582,6 +590,10 @@
 
     .modal-footer .primaryBtn{
         font-size: 12px;
+    }
+
+    .status {
+      font-size: 9px;
     }
   }
   
