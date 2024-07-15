@@ -57,6 +57,10 @@
     border-radius: 5px;
     width: 250px;
   }
+
+  .todo-input-item select {
+    cursor: pointer;
+  }
   
   .todo-input-item input:focus, textarea:focus, select:focus {
     outline: 2px solid #05dba9;
@@ -208,6 +212,7 @@
     font-size: 25px;
     margin-right:  15px;
     color:#ffffff;
+    cursor: pointer;
   }
   
   .delete-icon:hover {
