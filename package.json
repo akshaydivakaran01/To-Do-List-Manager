@@ -2,7 +2,7 @@
   "name": "to-do-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://akshaydivakaran01.github.io/To-Do-Manager/",
+  "homepage": "https://akshaydivakaran01.github.io/To-Do-List-Manager/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
