@@ -14,7 +14,7 @@ const [showModal, setShowModal] = useState(false);
 const [currentEdit, setCurrentEdit] = useState("");
 const [currentEditedObj, setCurrentEditedObj] = useState("");
 
-    const getDay = () =>{
+    const getDay = () => {
         let today = new Date().getDay();
         var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
         return days[today];
@@ -47,18 +47,18 @@ const [currentEditedObj, setCurrentEditedObj] = useState("");
 
       //--> // Add the new task to the list of tasks(Next step)
 
-    const handleCreateToDo = () =>{
+    const handleCreateToDo = () => {
 
         if (!taskTitle.trim()) {
             toast.error('Please add Task Title !');
         }
-        else if(!taskDescription.trim()){
+        else if(!taskDescription.trim()) {
             toast.error('Please add Task Description !');
         }
-        else if(!dueDateTime.trim()){
+        else if(!dueDateTime.trim()) {
             toast.error('Please add Task Due !');
         }
-        else if(!selectedPriority.trim()){
+        else if(!selectedPriority.trim()) {
             toast.error('Please select Task Priority !');
         }
         else
@@ -99,7 +99,7 @@ const [currentEditedObj, setCurrentEditedObj] = useState("");
         localStorage.setItem('toDoList', JSON.stringify(reducedToDoArray));
     };
 
-    const handleCompleteToDO = (index) =>{
+    const handleCompleteToDO = (index) => {
         let now = new Date();
         let dd = now.getDate();
         let mm = now.getMonth() + 1;
@@ -123,7 +123,7 @@ const [currentEditedObj, setCurrentEditedObj] = useState("");
         localStorage.setItem('completedToDoList', JSON.stringify(CompletedToDoArray));
     };
 
-    const handleDeleteCompletedToDo = (index) =>{
+    const handleDeleteCompletedToDo = (index) => {
         let reducedCompletedToDoArray = [...completedToDoList];
         reducedCompletedToDoArray.splice(index, 1);
         setCompletedToDoList(reducedCompletedToDoArray);
@@ -137,13 +137,13 @@ const [currentEditedObj, setCurrentEditedObj] = useState("");
         setShowModal(true);
     };
 
-    const handleUpdateTitle = (value) =>{
+    const handleUpdateTitle = (value) => {
         setCurrentEditedObj((prev) =>{
             return {...prev, title: value};
           })
     };
 
-    const handleUpdateDescription = (value) =>{
+    const handleUpdateDescription = (value) => {
         setCurrentEditedObj((prev) =>{
             return {...prev, description: value};
           })
@@ -155,13 +155,13 @@ const [currentEditedObj, setCurrentEditedObj] = useState("");
           })
     };
 
-    const handleUpdatePriority = (value) =>{
+    const handleUpdatePriority = (value) => {
         setCurrentEditedObj((prev) =>{
             return {...prev, priority: value};
           })
     };
 
-    const handleUpdateToDo = () =>{
+    const handleUpdateToDo = () => {
         let updatedToDoArray = [...toDoList];
         updatedToDoArray[currentEdit] = currentEditedObj;
         setToDoList(updatedToDoArray)
@@ -180,7 +180,7 @@ const [currentEditedObj, setCurrentEditedObj] = useState("");
         };
 
         
-        if(savedCompletedToDoList){
+        if(savedCompletedToDoList) {
             setCompletedToDoList(savedCompletedToDoList);
         }
     }, [])
@@ -203,7 +203,7 @@ const [currentEditedObj, setCurrentEditedObj] = useState("");
                     name="task-title" 
                     placeholder="What's the task title" 
                     value={taskTitle} 
-                    onChange={(e) =>{
+                    onChange={(e) => {
                         setTaskTitle(e.target.value);
                     }}></input>
                 </div>
@@ -229,7 +229,7 @@ const [currentEditedObj, setCurrentEditedObj] = useState("");
                     id="task-due" 
                     name="task-due"
                     value={dueDateTime}
-                    onChange={(e) =>{
+                    onChange={(e) => {
                         setDueDateTime(e.target.value);
                     }}></input>
                 </div>
