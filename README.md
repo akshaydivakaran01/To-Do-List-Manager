@@ -1,5 +1,5 @@
 <!-- Title -->
-# :iphone: To-Do List Manager Web Application
+# :iphone: To-Do List Manager
 
 <!-- Description Section -->
 ## :books: Description
