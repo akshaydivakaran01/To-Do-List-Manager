@@ -1,16 +1,5 @@
-<!-- Hamburger Menu -->
-<div style="position: absolute; top: 10px; right: 10px;">
-    <details>
-        <summary>☰</summary>
-        <ul>
-            <li><a href="#description">Description</a></li>
-            <li><a href="#technologies">Technologies</a></li>
-        </ul>
-    </details>
-</div>
-
 <!-- Title -->
-# <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" width="50" height="50"> To-Do List Manager Web Application built using React JS
+# <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4dd.png" width="30" height="30"> To-Do List Manager Web Application built using React JS
 
 <!-- Description Section -->
 ## <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4d5.png" width="30" height="30"> Description:
