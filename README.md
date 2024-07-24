@@ -24,6 +24,11 @@ Developed a dynamic, responsive and interactive To-Do List Manager using React, 
 - HTML
 - CSS
 - JavaScript
+  
+<!-- Live Link Section -->
+## :link: Live Link
+
+[To-Do List Manager Web App](https://akshaydivakaran01.github.io/To-Do-List-Manager/)
 
 <!-- Screenshots Section -->
 ## :camera: Screenshots
@@ -42,7 +47,3 @@ Developed a dynamic, responsive and interactive To-Do List Manager using React, 
 ## :clapper: Demo
 
 https://github.com/user-attachments/assets/221c5114-c290-4f18-a349-0eddda232ea9
-
-## :link: Live Link
-
-[To-Do List Manager web App](https://akshaydivakaran01.github.io/To-Do-List-Manager/)
