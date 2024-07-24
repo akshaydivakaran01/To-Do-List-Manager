@@ -25,4 +25,7 @@ Developed a dynamic, responsive and interactive To-Do List Manager using React, 
 - CSS
 - JavaScript
 
-<!-- Screenshot Section -->
+<!-- Demo Section -->
+## :clapper: Demo
+
+https://github.com/user-attachments/assets/221c5114-c290-4f18-a349-0eddda232ea9
