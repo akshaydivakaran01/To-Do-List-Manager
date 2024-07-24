@@ -1,4 +1,4 @@
-📱 To-Do List Manager Web Application built using React JS
+**📱 To-Do List Manager Web Application built using React JS**
 
 📝 Description:
       Developed a dynamic, responsive and interactive To-Do List Manager using React, enabling users to efficiently manage their tasks with features to add, delete, and update tasks using a clean and intuitive user interface.
