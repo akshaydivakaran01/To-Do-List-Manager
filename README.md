@@ -40,7 +40,7 @@ Developed a dynamic, responsive and interactive To-Do List Manager using React, 
 ![Screenshot 2024-07-24 214008](https://github.com/user-attachments/assets/7ba6a762-e72e-47fc-bfe2-104850e381c2)
 ### :pencil: Edit To Dos
 ![Screenshot 2024-07-24 214221](https://github.com/user-attachments/assets/22181029-acfb-4d9f-92cc-0a2b35650496)
-## :computer: Seamless on Any Screen
+### :computer: Seamless on Any Screen
 ![Responsive (1)](https://github.com/user-attachments/assets/3579db99-6235-4e3e-bcff-b4f132536e76)
 
 <!-- Demo Section -->
