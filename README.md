@@ -2,7 +2,7 @@
 # :iphone: To-Do List Manager Web Application built using React JS
 
 <!-- Description Section -->
-## :pencil2: Description
+## :books: Description
 Developed a dynamic, responsive and interactive To-Do List Manager using React, enabling users to efficiently manage their tasks with features to add, delete, and update tasks using a clean and intuitive user interface.
 
 ### Key Features:
@@ -15,7 +15,7 @@ Developed a dynamic, responsive and interactive To-Do List Manager using React, 
 
 
 <!-- Technologies Section -->
-## <img src="https://github.githubassets.com/images/icons/emoji/unicode/1f4e6.png" width="30" height="30"> Technologies:
+## :rocket: Technologies
 - React JS
 - JavaScript XML(JSX)
 - Bootstrap
