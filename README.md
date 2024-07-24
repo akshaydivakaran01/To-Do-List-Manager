@@ -20,7 +20,7 @@ Developed a dynamic, responsive and interactive To-Do List Manager using React, 
 - React JS
 - JavaScript XML(JSX)
 - Bootstrap
-- Toastify Library
+- React Toastify
 - HTML
 - CSS
 - JavaScript
