@@ -1,73 +1,22 @@
-# Getting Started with Create React App
+📱 To-Do List Manager Web Application built using React JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+📝 Description:
+      Developed a dynamic, responsive and interactive To-Do List Manager using React, enabling users to efficiently manage their tasks with features to add, delete, and update tasks using a clean and intuitive user interface.
+        Key Features:
+          🔸Task Management: Users can add new tasks, delete and update existing tasks.
+          🔸State Management: Utilized React's useState hook for managing the state of tasks and input fields.
+          🔸Event Handling: Implemented event handlers for user interactions such as adding, deleting, and updating tasks in the To-Do list.
+          🔸Conditional Rendering: Validated and rendered tasks dynamically based on input, ensuring tasks are only added when the input is not empty, maintaining a clean and error-free user experience.
+          🔸Responsive Design: Utilized Bootstrap framework in conjunction with custom CSS media queries to ensure optimal layout and functionality across a wide range of devices—from large desktop monitors and                                     laptops to tablets and mobile phones.
+          🔸Alert Notifications: Integrated Toastify library for user-friendly alert notifications during task operations, enhancing usability.
 
-## Available Scripts
+📦 Technologies:
+    🔹React JS
+    🔹JavaScript XML(JSX)
+    🔹Bootstrap 
+    🔹Toastify
+    🔹HTML
+    🔹CSS
+    🔹JavaScript
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-https://fonts.google.com/share?selection.family=Arvo:ital,wght@0,400;0,700;1,400;1,700|Bitter:ital,wght@0,100..900;1,100..900|Caveat:wght@400..700|Hind+Siliguri:wght@300;400;500;600;700|Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900|Libre+Franklin:ital,wght@0,100..900;1,100..900|M+PLUS+Rounded+1c|Nunito:ital,wght@0,200..1000;1,200..1000|Playwrite+DE+Grund:wght@100..400|Playwrite+ES+Deco:wght@100..400|Playwrite+IT+Moderna:wght@100..400|Playwrite+NG+Modern:wght@100..400|Playwrite+NO:wght@100..400|Playwrite+PL:wght@100..400|Playwrite+US+Modern:wght@100..400|Quicksand:wght@300..700|Roboto+Mono:ital,wght@0,100..700;1,100..700|Roboto+Slab:wght@100..900|Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900|Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700
+📷 Screenshots
