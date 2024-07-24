@@ -1,5 +1,5 @@
 <!-- Title -->
-# :iphone: To-Do List Manager Web Application built using React JS
+# :iphone: To-Do List Manager Web Application
 
 <!-- Description Section -->
 ## :books: Description
